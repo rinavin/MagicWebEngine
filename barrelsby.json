@@ -1,0 +1,8 @@
+{
+  "directory" : "projects",
+  "delete"   : true,
+  "location" : "below",
+  "name" : "index",
+  "structure" : "flat",
+  "verbose" : "true"
+}
