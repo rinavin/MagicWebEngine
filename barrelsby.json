@@ -1,5 +1,5 @@
 {
-  "directory" : "projects",
+  "directory" : "./src",
   "delete"   : true,
   "location" : "below",
   "name" : "index",

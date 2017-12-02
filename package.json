@@ -1,0 +1,41 @@
+{
+ "name": "magic-web-engine",
+ "version": "1.0.0",
+ "description": "",
+ "main": "dist/index.ts",
+ "scripts": {
+  "webpack": "webpack --config webpack.config.js",
+  "tsc": "tsc -p tsconfig.json",
+  "barrelsby": "./node_modules/.bin/barrelsby -c barrelsby.json"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/rinavin/MagicWebEngine.git"
+ },
+ "author": "",
+ "bugs": {
+  "url": "https://github.com/rinavin/MagicWebEngine/issues"
+ },
+ "homepage": "https://github.com/rinavin/MagicWebEngine#readme",
+ "devDependencies": {
+  "barrelsby": "0.0.8",
+  "copy-webpack-plugin": "^4.2.3",
+  "ts-loader": "^3.1.1",
+  "typescript": "^2.6.2",
+  "webpack": "^3.8.1",
+  "webpack-angular-externals": "^1.0.2",
+  "webpack-config": "^7.5.0",
+  "webpack-node-externals": "^1.6.0",
+  "webpack-rxjs-externals": "^1.1.0"
+ },
+ "dependencies": {
+  "@angular/http": "^5.0.3",
+  "cpx": "^1.5.0",
+  "gulp": "^3.9.1",
+  "rxjs": "^5.5.2",
+  "util": "^0.10.3",
+  "webpack-shell-plugin": "^0.5.0",
+  "webpack-stream": "^4.0.0",
+  "xml2js": "^0.4.19"
+ }
+}

@@ -1,0 +1,9 @@
+.idea
+node_mp
+dist/
+node_modules/
+src/engine/index.ts
+src/gui/index.ts
+#src/**/src/**/*.js
+#src/**/*.js.map
+temp-js/
