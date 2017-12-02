@@ -4,6 +4,6 @@ dist/
 node_modules/
 src/engine/index.ts
 src/gui/index.ts
-#src/**/src/**/*.js
+src/**/index.ts
 #src/**/*.js.map
 temp-js/
