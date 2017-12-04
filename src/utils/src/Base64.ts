@@ -147,7 +147,7 @@ export class Base64 extends NObject {
       else {
         try {
           let instance: Encoding = ISO_8859_1_Encoding.getInstance();
-          let array: Uint8Array = Base64.decode(instance.GetBytes(str));
+	          let array: Uint8Array = Base64.decode(instance.GetBytes(str));
           let encoding2: Encoding = (encoding !== null) ? encoding : instance;
           result = encoding2.GetString(array, 0, array.length);
         }

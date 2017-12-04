@@ -1,4 +1,5 @@
 @echo off
+
 @echo [Removing existing dist folders....]
 @call rimraf dist
 @call rimraf node_modules/@magic
@@ -10,7 +11,7 @@
     @echo [Done Building %%N...]
 
     @echo [Copying %%N to node_modules...]
-    @cpx ./dist/@magic/%%N/*.* ./node_modules/@magic/%%N -v
+    @cpx ./dist/@magic/%%N/** ./node_modules/@magic/%%N -C
     @echo [Done Copying %%N...]
 )
 

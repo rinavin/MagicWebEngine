@@ -5,7 +5,7 @@ const
 	WebpackShellPlugin = require('webpack-shell-plugin'),
 	nodeExternals = require('webpack-node-externals');
 
-module.exports = (name )=> ({
+module.exports = (name)=> ({
 		context: path.resolve(__dirname, `./`),
 		
 		entry    : {
