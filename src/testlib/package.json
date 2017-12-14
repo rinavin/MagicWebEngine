@@ -1,0 +1,9 @@
+{
+  "name": "magic-testlib",
+  "version": "0.0.13",
+  "description": "magic testlib package",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC"
+}

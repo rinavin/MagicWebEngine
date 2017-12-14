@@ -5,7 +5,7 @@
  "main": "dist/index.ts",
  "scripts": {
   "webpack": "webpack --config webpack.config.js",
-  "tsc": "tsc -p tsconfig.json",
+   "tsc": "tsc -p tsconfig.json",
   "barrelsby": "./node_modules/.bin/barrelsby -c barrelsby.json"
  },
  "repository": {

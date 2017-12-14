@@ -3,13 +3,13 @@ import {NObject} from "./NObject";
 import {IFormatProvider} from "./IFormatProvider";
 import {CultureInfo} from "./CultureInfo";
 
-enum DateTimeKind {
+export enum DateTimeKind {
   Local,
   Unspecified,
   Utc
 }
 
-enum DayOfWeek {
+export enum DayOfWeek {
   Sunday = 0,
   Monday = 1,
   Tuesday = 2,

@@ -1,6 +1,7 @@
 import {NotImplementedException} from "./NotImplementedException";
 import {NString} from "./NString";
-import {Type} from "./Type";
+//todo:code error - circular dependency
+// import {Type} from "./Type";
 
 export class NObject {
   Equals(other: NObject): boolean {
@@ -11,18 +12,28 @@ export class NObject {
   GetHashCode(): number {
     return NString.GetHashCode(this.toString());
   }
+		
+  
+  //todo:code error
+	
+	/*
+	  ToString(): string {
+		return this.GetType().Name;
+	  }
+	*/
 
-  ToString(): string {
-    return this.GetType().Name;
-  }
-
+/*
   toString(): string {
     return this.ToString();
   }
+*/
 
+  //todo:code error
+/*
   GetType(): Type {
     return new Type(this.constructor.toString().match(/function (\w*)/)[1]);
   }
+*/
 
   static ReferenceEquals(x: NObject, y: NObject): boolean {
     return x === y;

@@ -1,0 +1,11 @@
+{
+  "name": "magic-mscorelib",
+  "version": "0.0.20",
+  "description": "magic mscorelib package",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "author": "",
+  "license": "ISC"
+}

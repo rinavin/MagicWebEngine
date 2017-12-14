@@ -1,4 +1,4 @@
-class SystemSound {
+export class SystemSound {
   public Play() {
   }
 }
